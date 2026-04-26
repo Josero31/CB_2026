@@ -11,7 +11,6 @@ function createCardHTML(presentacion, index) {
             <img src="${presentacion.image}" alt="${presentacion.title}" loading="lazy">
         </div>
         <div class="card-content">
-            <span class="card-number">Presentación ${paddedIndex}</span>
             <h2>${presentacion.title}</h2>
             <p>${presentacion.description}</p>
             <div class="card-action">
